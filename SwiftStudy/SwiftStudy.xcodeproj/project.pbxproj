@@ -12,6 +12,8 @@
 		296ED2281E30AE1900F67BAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296ED2261E30AE1900F67BAA /* Main.storyboard */; };
 		296ED22A1E30AE1900F67BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296ED2291E30AE1900F67BAA /* Assets.xcassets */; };
 		296ED22D1E30AE1900F67BAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296ED22B1E30AE1900F67BAA /* LaunchScreen.storyboard */; };
+		296ED2351E30C0EC00F67BAA /* LabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296ED2341E30C0EC00F67BAA /* LabelViewController.swift */; };
+		296ED2371E30C6BF00F67BAA /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296ED2361E30C6BF00F67BAA /* ButtonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		296ED2291E30AE1900F67BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		296ED22C1E30AE1900F67BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		296ED22E1E30AE1900F67BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		296ED2341E30C0EC00F67BAA /* LabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelViewController.swift; sourceTree = "<group>"; };
+		296ED2361E30C6BF00F67BAA /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				296ED2221E30AE1900F67BAA /* AppDelegate.swift */,
 				296ED2241E30AE1900F67BAA /* ViewController.swift */,
+				296ED2341E30C0EC00F67BAA /* LabelViewController.swift */,
+				296ED2361E30C6BF00F67BAA /* ButtonViewController.swift */,
 				296ED2261E30AE1900F67BAA /* Main.storyboard */,
 				296ED2291E30AE1900F67BAA /* Assets.xcassets */,
 				296ED22B1E30AE1900F67BAA /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296ED2371E30C6BF00F67BAA /* ButtonViewController.swift in Sources */,
 				296ED2251E30AE1900F67BAA /* ViewController.swift in Sources */,
 				296ED2231E30AE1900F67BAA /* AppDelegate.swift in Sources */,
+				296ED2351E30C0EC00F67BAA /* LabelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +308,7 @@
 				296ED2331E30AE1900F67BAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

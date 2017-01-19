@@ -14,6 +14,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    @IBAction func labelDemo(_ sender: UIButton) {
+        let labelVC = LabelViewController()
+        self.navigationController?.pushViewController(labelVC, animated: true)
+        
+    }
+    
+    @IBAction func buttonDemo(_ sender: UIButton) {
+        let buttonVC = ButtonViewController()
+        self.navigationController?.pushViewController(buttonVC, animated: true)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
